@@ -1,0 +1,164 @@
+CIS 125 Principles of Programming I 
+CIS 126 Principles of Programming II 
+CIS 130 Systems Analysis and Design 
+CIS 135 Introduction to Database Design using SQL 
+CIS 233 Operating Systems 
+CIS 240 Data Structures  
+CIS 261 Hardware Fundamentals and PC Repair 
+CIS 283 Object Oriented Programming with JAVA 
+CIS 284 GUI Programming  
+CIS 286 WWW Interactive Programming 
+CIS 288 Application Development 
+CIS 290 CIS Project 
+CNT 125 Introduction to Networking
+CNT 135 Intermediate Networking 
+CNT 225 Routing and Switching 
+CNT 235 Network Design and Support 
+CNT 250 Server Management 
+CNT 290 Computer Networking Project 
+BIO 131 Cellular Biology 
+BIO 131L Cellular Biology LAB 1 credit hour
+BIO 231 Evolution and Biodiversity 
+BIO 231L Evolution and Biodiversity LAB 1 credit hour
+BIO 232 Genetics 
+BIO 240 Plant Physiology and Anatomy 
+BIO 240L Plant Physiology and Anatomy Lab 1 credit hour
+BIO 241 Human Anatomy and Physiology 
+BIO 241L Human Anatomy and Physiology LAB 1 credit hour
+BIO 242 Human Health and Disease 
+CHE 123 Principles of Chemistry I 
+CHE 123L Principles of Chemistry I LAB 1 credit hour
+CHE 129 Principles of Chemistry II 
+CHE129L Principles of Chemistry II LAB 1 credit hour
+CHE136 Fundamental Organic Chemistry 
+CHE 140 Biochemistry 
+CHE 140L Biochemistry LAB 1 credit hour
+CHE 230 Analytical Methods in Chemistry 
+CHE 234 Organic Chemistry
+CHE 234L Organic Chemistry LAB 1 credit hour
+CHE 239 Inorganic Chemistry 
+CHE 239L Inorganic Chemistry LAB 1 credit hour
+ENS 120 Fundamentals of Ecological Principles 4 credit hours
+ENS 121 Environment and Society 
+ENS 122 Geography of Environmental Systems 4 credit hours
+ENS 212 Sustainable Agriculture/Agro-forestry 
+ENS 216 Environmental Chemistry and Monitoring 4 credit hours
+ENS 217 Marine and Fish Ecology 4 credit hours
+ENS 221 Tropical Ecology Research 
+ENS 241 Internship in Environmental Science 1 credit hour
+MTH 119 Trigonometry 4 credit hours
+MTH 140 Analytic Geometry
+MTH 145 Calculus I 4 credit hours
+MTH 236 Calculus II 4 credit hours
+MTH 246 Probability and Statistics 4 credit hours
+MTH 250 Further Sequences and Mathematical Modeling
+MTH 260 Linear Algebra
+PHY 116 Classical Mechanics for Scientists and Engineers 
+PHY 116L Classical Mechanics for Scientists and Engineers LAB 1 credit hour
+PHY 120 Introduction to Fluids, Materials and Thermodynamics 
+PHY 130 Introduction to Analog and Digital Electronics 
+PHY 130L Introduction to Analog and Digital Electronics LAB 1 credit hour
+PHY 205 * I need to find this one out
+PHY 216 Light, Waves and Oscillations 
+PHY 216L Light, Waves and Oscillations LAB 1 credit hour
+PHY 226 Electromagnetism 
+PHY 226L Electromagnetism LAB 1 credit hour
+PHY 236 Modern Physics 
+PHY 236L Modern Physics LAB 1 credit hour
+ART 105 Foundations in Drawing
+ART 110 Foundations in Painting
+ART 113 Drawing
+ART 114 Painting
+ART 118 Art Appreciation
+ART 221 Sculpture
+ART 222 Pottery
+ART 245 Art History
+ART 255 Studio Art 
+CGD 118 Graphic Design  
+CGD 217 Design Communication  
+CGD 220 Digital Publishing  
+CRS 207 Caribbean Society and Development 4 credit hours
+HIS 153 Indigenous Societies of Latin America and the Caribbean
+HIS 161 Atlantic World Interactions
+HIS 251 Caribbean Slave Systems
+HIS 252 Transformations in Caribbean Societies from Emancipation to the Present Day 
+HIS 261 Atlantic Development: Identity and Industry 
+HIS 262 Conflict and Liberation in International Relations in the Twentieth Century Literature 
+LIT 151 Literatures in English: An Introductory Writing Seminar  
+LIT 152 Literatures in English: British and American Poetry 
+LIT 153 Literatures in English: Prose Fiction I 
+LIT 251 Literatures in English: Drama 4 credit hours
+LIT 252 Literatures in English: Caribbean Poetry 
+LIT 253 Literatures in English: Prose Fiction II 4 credit hours
+MUTH 100 Basic Musicianship 
+MUPR 100 Applied Study I 1 credit hour
+MUPC 110 Class Piano I 2 credit hours
+MUEN 100 Music Ensemble 1 credit hour
+MUTH 101 Elements of Theory 
+MUPR 101 Applied Study II 1 credit hour
+MUPC 111 Class Piano II 2 credit hours
+MUHL 106 Music in Belize 2 credit hours
+MUEN 101 Music Ensemble 1 credit hour
+MUTH 200 Music Theory I 4 credit hours
+MUPR 200 Applied Study III 1 credit hour
+MUEN 200 Music Ensemble 1 credit hour
+MUGN 200 Music Instruction 
+MUTH 201 Music Theory II 4 credit hours
+MUPR 201 Applied Study IV 1 credit hour
+MUEN 201 Music Ensemble 1 credit hour
+MUHL 201 Introduction to Music Literature 
+EDU 115, EDU 238, EDU 291
+EDU 111 The Nature of the Learner 4 credit hours
+EDU 112 Introduction to Education
+EDU 115 Teaching Methods for the Primary Classroom 4 credit hours
+EDU 120 Physical Education
+EDU 132 Music Education
+EDU 210 Managing the Regular and Multigrade Classroom
+EDU 225 Health and Family Life Education
+EDU 226 Spanish Methods for the Primary Classroom
+EDU 230 Language Arts Methods for Primary Grades I
+EDU 232 Language Arts Methods for the Primary Grades II
+EDU 233 Science Concepts and Methods for the Primary Classroom
+EDU 234 Social Studies Concepts and Methods for the Primary Classroom
+EDU 238 Math Concepts and Methods for the Primary Classroom 4 credit hours
+EDU 290 Teaching Practicum I
+*EDU 291 Internship in Primary Education 9 credit hours
+ACC 101 Principles of Accounting I 
+ACC 102 Principles of Accounting II 
+ACC 215 Intermediate Cost & Managerial Accounting I 
+ACC 216 Intermediate Cost & Managerial Accounting II  
+BUS 105 Principles of Management 
+BUS 213 Principles of Marketing 
+BUS 222 Business Law 
+BUS 223 Business Finance 
+BUS 224 Business Ethics 
+BUS 251 Business Communication 
+BUS 252 Small Business Management 
+BUS 253 Business Internship 1 credit hour
+ECO 105  Principles of Microeconomics 
+ECO 106 Principles of Macroeconomics 
+ECO 210 Intermediate Microeconomics 
+ECO 220 Intermediate Macroeconomics  
+THM 120 Introduction to Tourism and Hospitality Management   
+THM 236 Tourism Planning and Policy   
+THM 255 Destination Planning and Product Development 
+LAW 110 Caribbean Legal Environment 
+LAW 111 Introduction to Criminology 
+LAW 210 Contract Law 
+LAW 215 Introduction to Criminal Law 
+LAW 225 Real Property Law 
+LAW 230 Law of Tort 
+CRJ 235 Criminal Investigation 
+CRJ 240 Juvenile Justice 
+CRJ 245 Introduction to Corrections 
+CRJ 255 Professional Experience in Criminal Justice 
+SOC 134 Sociology, Society and Culture 
+SOC 144 Education, Social Stratification and Mobility 
+SOC 214 Population Studies, Poverty and Development 
+SOC 234 Social Control, Crime and Deviance 4 credit hours
+PSY 115 Introduction to Psychology 
+PSY 125 Developmental Psychology 
+PSY 135 Personality Psychology 
+PSY 220 Health Psychology 
+PSY 225 Social Psychology 
+PSY 230 Abnormal Psychology 
