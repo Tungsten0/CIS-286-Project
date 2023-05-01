@@ -54,200 +54,200 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr id="BA">
                     <td>Business</td>
                     <td>Business Administration</td>
-                    <td><a href="programs/business-administration.html" style="text-decoration: none;">Business Administration</a></td>
+                    <td><a href="program-detail.php?id=BA" style="text-decoration: none;">Business Administration</a></td>
                   </tr>
                   <tr>
                     <td>Business</td>
                     <td>Business Administration</td>
-                    <td><a href="programs/business-administration-with-accounting.html" style="text-decoration: none;">Business Administration with Accounting</a></td>
+                    <td><a href="program-detail.php?id=BAA" style="text-decoration: none;">Business Administration with Accounting</a></td>
                   </tr>
                   <tr>
                     <td>Business</td>
                     <td>Business Administration</td>
-                    <td><a href="programs/business-administration-with-economics.html" style="text-decoration: none;">Business Administration with Economics</a></td>
+                    <td><a href="program-detail.php?id=BAE" style="text-decoration: none;">Business Administration with Economics</a></td>
                   </tr>
                   <tr>
                     <td>Business</td>
                     <td>Business Administration</td>
-                    <td><a href="programs/business-administration-with-acc-&-econ.html" style="text-decoration: none;">Business Administration with Acc & Econ</a></td>
+                    <td><a href="program-detail.php?id=BAAE" style="text-decoration: none;">Business Administration with Acc & Econ</a></td>
                   </tr>
                   <tr>
                     <td>Business</td>
                     <td>Business Administration</td>
-                    <td><a href="programs/business-administration-with-graphic-design.html" style="text-decoration: none;">Business Administration with Graphic Design</a></td>
+                    <td><a href="program-detail.php?id=BACGD" style="text-decoration: none;">Business Administration with Graphic Design</a></td>
                   </tr>
-                  <tr>
+                  <tr id="TM">
                     <td>Business</td>
                     <td>Tourism Management</td>
-                    <td><a href="programs/tourism-management.html" style="text-decoration: none;">Tourism Management</a></td>
+                    <td><a href="program-detail.php?id=TM" style="text-decoration: none;">Tourism Management</a></td>
                   </tr>
-                  <tr>
+                  <tr id="ENT">
                     <td>Business</td>
                     <td>Entrepreneurship</td>
-                    <td><a href="programs/entrepreneurship.html" style="text-decoration: none;">Entrepreneurship</a></td>
+                    <td><a href="program-detail.php?id=ENT" style="text-decoration: none;">Entrepreneurship</a></td>
+                  </tr>
+                  <tr id="CS">
+                    <td>Computer Science</td>
+                    <td>Computer Science</td>
+                    <td><a href="program-detail.php?id=CIS" style="text-decoration: none;">Computer Information Systems</a></td>
                   </tr>
                   <tr>
                     <td>Computer Science</td>
                     <td>Computer Science</td>
-                    <td><a href="programs/computer-information-systems.html" style="text-decoration: none;">Computer Information Systems</a></td>
+                    <td><a href="program-detail.php?id=CNT" style="text-decoration: none;">Computer Networking</a></td>
                   </tr>
                   <tr>
                     <td>Computer Science</td>
                     <td>Computer Science</td>
-                    <td><a href="programs/computer-networking.html" style="text-decoration: none;">Computer Networking</a></td>
+                    <td><a href="program-detail.php?id=CS" style="text-decoration: none;">Computer Science</a></td>
                   </tr>
                   <tr>
                     <td>Computer Science</td>
                     <td>Computer Science</td>
-                    <td><a href="programs/computer-science.html" style="text-decoration: none;">Computer Science</a></td>
+                    <td><a href="program-detail.php?id=MIS" style="text-decoration: none;">Management Information Systems</a></td>
                   </tr>
                   <tr>
                     <td>Computer Science</td>
                     <td>Computer Science</td>
-                    <td><a href="programs/management-information-systems.html" style="text-decoration: none;">Management Information Systems</a></td>
-                  </tr>
-                  <tr>
-                    <td>Computer Science</td>
-                    <td>Computer Science</td>
-                    <td><a href="programs/information-technology.html" style="text-decoration: none;">Infomration Technology</a></td>
-                  </tr>
-                  <tr>
-                    <td>Humanities & Education</td>
-                    <td>History and Literature</td>
-                    <td><a href="programs/literature.html" style="text-decoration: none;">Literature</a></td>
+                    <td><a href="program-detail.php?id=IT" style="text-decoration: none;">Infomration Technology</a></td>
                   </tr>
                   <tr>
                     <td>Humanities & Education</td>
                     <td>History and Literature</td>
-                    <td><a href="programs/history-and-literature.html" style="text-decoration: none;">History and Literature</a></td>
+                    <td><a href="program-detail.php?id=LIT" style="text-decoration: none;">Literature</a></td>
+                  </tr>
+                  <tr id="HISLIT">
+                    <td>Humanities & Education</td>
+                    <td>History and Literature</td>
+                    <td><a href="program-detail.php?id=HISLIT" style="text-decoration: none;">History and Literature</a></td>
+                  </tr>
+                  <tr id="FA">
+                    <td>Humanities & Education</td>
+                    <td>Fine Arts & Music</td>
+                    <td><a href="program-detail.php?id=FA" style="text-decoration: none;">Fine Arts</a></td>
                   </tr>
                   <tr>
                     <td>Humanities & Education</td>
                     <td>Fine Arts & Music</td>
-                    <td><a href="programs/fine-arts.html" style="text-decoration: none;">Fine Arts</a></td>
+                    <td><a href="program-detail.php?id=MU" style="text-decoration: none;">Music</a></td>
                   </tr>
-                  <tr>
+                  <tr id="FA">
                     <td>Humanities & Education</td>
                     <td>Fine Arts & Music</td>
-                    <td><a href="programs/music.html" style="text-decoration: none;">Music</a></td>
-                  </tr>
-                  <tr>
-                    <td>Humanities & Education</td>
-                    <td>Fine Arts & Music</td>
-                    <td><a href="programs/fine-arts-&-music.html" style="text-decoration: none;">Fine Arts & Music</a></td>
+                    <td><a href="program-detail.php?id=FAM" style="text-decoration: none;">Fine Arts & Music</a></td>
                   </tr>
                   <tr>
                     <td>Humanities & Education</td>
                     <td>Liberal Arts</td>
-                    <td><a href="programs/liberal-arts.html" style="text-decoration: none;">Liberal Arts</a></td>
+                    <td><a href="program-detail.php?id=LA" style="text-decoration: none;">Liberal Arts</a></td>
                   </tr>
-                  <tr>
+                  <tr id="CGD">
                     <td>Humanities & Education</td>
                     <td>Comercial Graphic Design</td>
-                    <td><a href="programs/commercial-graphic-design.html" style="text-decoration: none;">Comercial Graphic Design</a></td>
+                    <td><a href="program-detail.php?id=CGD" style="text-decoration: none;">Comercial Graphic Design</a></td>
                   </tr>
-                  <tr>
+                  <tr id="EDU">
                     <td>Humanities & Education</td>
                     <td>Education</td>
-                    <td><a href="programs/primary-education.html" style="text-decoration: none;">Primary Education</a></td>
+                    <td><a href="program-detail.php?id=EDU" style="text-decoration: none;">Primary Education</a></td>
                   </tr>
                   <tr>
                     <td>Math & Science</td>
                     <td>Biology & Chemistry</td>
-                    <td><a href="programs/biology.html" style="text-decoration: none;">Biology</a></td>
+                    <td><a href="program-detail.php?id=BIO" style="text-decoration: none;">Biology</a></td>
                   </tr>
                   <tr>
                     <td>Math & Science</td>
                     <td>Biology & Chemistry</td>
-                    <td><a href="programs/chemistry.html" style="text-decoration: none;">Chemistry</a></td>
+                    <td><a href="program-detail.php?id=CHE" style="text-decoration: none;">Chemistry</a></td>
+                  </tr>
+                  <tr id="BIOCHE">
+                    <td>Math & Science</td>
+                    <td>Biology & Chemistry</td>
+                    <td><a href="program-detail.php?id=BIOCHE" style="text-decoration: none;">Biology & Chemistry</a></td>
                   </tr>
                   <tr>
                     <td>Math & Science</td>
                     <td>Biology & Chemistry</td>
-                    <td><a href="programs/biology-&-chemistry.html" style="text-decoration: none;">Biology & Chemistry</a></td>
+                    <td><a href="program-detail.php?id=ENS" style="text-decoration: none;">Environmental Science</a></td>
                   </tr>
-                  <tr>
+                  <tr id="MTHPHY">
                     <td>Math & Science</td>
-                    <td>Biology & Chemistry</td>
-                    <td><a href="programs/environmental-science.html" style="text-decoration: none;">Environmental Science</a></td>
+                    <td>Math & Physics</td>
+                    <td><a href="program-detail.php?id=MTH" style="text-decoration: none;">Math</a></td>
                   </tr>
                   <tr>
                     <td>Math & Science</td>
                     <td>Math & Physics</td>
-                    <td><a href="programs/math.html" style="text-decoration: none;">Math</a></td>
+                    <td><a href="program-detail.php?id=MTHCHE" style="text-decoration: none;">Math & Chemistry</a></td>
                   </tr>
                   <tr>
                     <td>Math & Science</td>
                     <td>Math & Physics</td>
-                    <td><a href="programs/math-&-chemistry.html" style="text-decoration: none;">Math & Chemistry</a></td>
+                    <td><a href="program-detail.php?id=PHY" style="text-decoration: none;">Physics</a></td>
                   </tr>
-                  <tr>
-                    <td>Math & Science</td>
-                    <td>Math & Physics</td>
-                    <td><a href="programs/physics.html" style="text-decoration: none;">Physics</a></td>
-                  </tr>
-                  <tr>
+                  <tr id="IS">
                     <td>Math & Science</td>
                     <td>Interdisciplinary Science</td>
-                    <td><a href="programs/interdisciplinary-science.html" style="text-decoration: none;">Interdisciplinary Science</a></td>
+                    <td><a href="program-detail.php?id=IS" style="text-decoration: none;">Interdisciplinary Science</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
-                    <td><a href="programs/history.html" style="text-decoration: none;">History</a></td>
+                    <td><a href="program-detail.php?id=HIS" style="text-decoration: none;">History</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
-                    <td><a href="programs/economics.html" style="text-decoration: none;">Economics</a></td>
+                    <td><a href="program-detail.php?id=ECO" style="text-decoration: none;">Economics</a></td>
+                  </tr>
+                  <tr id="HISECO">
+                    <td>Social Sciences</td>
+                    <td>History & Economics</td>
+                    <td><a href="program-detail.php?id=HISECO" style="text-decoration: none;">History & Economics</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
-                    <td><a href="programs/history-&-economics.html" style="text-decoration: none;">History & Economics</a></td>
+                    <td><a href="program-detail.php?id=HISSOC" style="text-decoration: none;">History & Sociology</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
-                    <td><a href="programs/history-&-sociology.html" style="text-decoration: none;">History & Sociology</a></td>
-                  </tr>
-                  <tr>
-                    <td>Social Sciences</td>
-                    <td>History & Economics</td>
-                    <td><a href="programs/international-relations.html" style="text-decoration: none;">International Relations</a></td>
+                    <td><a href="program-detail.php?id=IR" style="text-decoration: none;">International Relations</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>Sociology & Psychology</td>
-                    <td><a href="programs/sociology.html" style="text-decoration: none;">Sociology</a></td>
+                    <td><a href="program-detail.php?id=SOC" style="text-decoration: none;">Sociology</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>Sociology & Psychology</td>
-                    <td><a href="programs/psychology.html" style="text-decoration: none;">Psychology</a></td>
+                    <td><a href="program-detail.php?id=PSY" style="text-decoration: none;">Psychology</a></td>
+                  </tr>
+                  <tr id="SOCPSY">
+                    <td>Social Sciences</td>
+                    <td>Sociology & Psychology</td>
+                    <td><a href="program-detail.php?id=SOCPSY" style="text-decoration: none;">Sociology & Psychology</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>Sociology & Psychology</td>
-                    <td><a href="programs/sociology-&-psychology.html" style="text-decoration: none;">Sociology & Psychology</a></td>
+                    <td><a href="program-detail.php?id=SOCECO" style="text-decoration: none;">Sociology & Economics</a></td>
                   </tr>
-                  <tr>
+                  <tr id="CJ">
                     <td>Social Sciences</td>
-                    <td>Sociology & Psychology</td>
-                    <td><a href="programs/sociology-&-economics.html" style="text-decoration: none;">Sociology & Economics</a></td>
+                    <td>Criminal Justice & Law</td>
+                    <td><a href="program-detail.php?id=CR" style="text-decoration: none;">Criminal Justice</a></td>
                   </tr>
                   <tr>
                     <td>Social Sciences</td>
                     <td>Criminal Justice & Law</td>
-                    <td><a href="programs/criminal-justice.html" style="text-decoration: none;">Criminal Justice</a></td>
-                  </tr>
-                  <tr>
-                    <td>Social Sciences</td>
-                    <td>Criminal Justice & Law</td>
-                    <td><a href="programs/law.html" style="text-decoration: none;">Law</a></td>
+                    <td><a href="program-detail.php?id=LAW" style="text-decoration: none;">Law</a></td>
                   </tr>
                 </tbody>
             </table>

@@ -22,7 +22,7 @@
                 // popup(toast): if is true then logged in - else logged out
                 if(isset($_SESSION['userid'])) {
                     echo '
-                    <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast align-items-center" style="width:200px;" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex">
                             <div class="toast-body">
                                 <p style="margin-bottom:-3px;" class="login-status"> You are logged in </p>
@@ -33,7 +33,7 @@
                         ';
                 } else {
                     echo '
-                    <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast align-items-center" style="width:200px;" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex">
                             <div class="toast-body">
                                 <p style="margin-bottom:-3px;" class="login-status"> You are logged out </p>
@@ -88,7 +88,7 @@
                     <h5 class="card-title" style="color: #200174;">Computer Science Department</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="#" style="text-decoration: none;">Computer Science Track</a></li>
+                    <li class="list-group-item"><a href="program-list.php?#CS" style="text-decoration: none;">Computer Science Track</a></li>
                 </ul>
             </div>
 
@@ -99,11 +99,11 @@
                             <h5 class="card-title" style="color: #200174;">Humanities and Education Department</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Comercial Graphic Design Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Education Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">History & Literature Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Liberal Arts Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Fine Arts & Music</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#CGD" style="text-decoration: none;">Comercial Graphic Design Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#EDU" style="text-decoration: none;">Education Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#HISLIT" style="text-decoration: none;">History & Literature Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#LA" style="text-decoration: none;">Liberal Arts Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#FA" style="text-decoration: none;">Fine Arts & Music</a></li>
                         </ul>
                     </div>
                 </div>
@@ -113,9 +113,9 @@
                             <h5 class="card-title" style="color: #200174;">Math & Science Department</h5>
                         </div>
                         <ul class="list-group list-group-flush" style="text-decoration: none;">
-                            <li class="list-group-item"><a href="program-list.php" style="text-decoration: none;">Biology & Chemistry Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Math & Physics Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Interdisciplinary Science Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#BIOCHE" style="text-decoration: none;">Biology & Chemistry Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#MTHPHY" style="text-decoration: none;">Math & Physics Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#IS" style="text-decoration: none;">Interdisciplinary Science Track</a></li>
                         </ul>
                     </div>
                 </div>
@@ -125,9 +125,9 @@
                             <h5 class="card-title" style="color: #200174;">Social Sciences Department</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">History & Economics Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Sociology & Psychology Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Criminal Justice & Law Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#HISECO" style="text-decoration: none;">History & Economics Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#SOCPSY" style="text-decoration: none;">Sociology & Psychology Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#CJ" style="text-decoration: none;">Criminal Justice & Law Track</a></li>
                         </ul>
                     </div>
                 </div>
@@ -137,9 +137,9 @@
                             <h5 class="card-title" style="color: #200174;">Business Department</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Business Administration Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Tourism Management Track</a></li>
-                            <li class="list-group-item"><a href="#" style="text-decoration: none;">Entrepreneurship Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#BA" style="text-decoration: none;">Business Administration Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#TM" style="text-decoration: none;">Tourism Management Track</a></li>
+                            <li class="list-group-item"><a href="program-list.php?#ENT" style="text-decoration: none;">Entrepreneurship Track</a></li>
                         </ul>
                     </div>
                 </div>

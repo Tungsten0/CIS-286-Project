@@ -4,13 +4,16 @@ if (isset($_GET['query'])) {
   $query = $_GET['query'];
   
   $stmt = mysqli_prepare($con, 
-  "SELECT * FROM sjc.courses
-  WHERE column_name LIKE '$query'
-  UNION
-  SELECT * FROM sjc.books
-  WHERE column_name LIKE '$query';");
+  "SELECT id, title, department, description
+    FROM sjc.courses
+    WHERE id LIKE '$query'
+    OR title LIKE '$query'
+    OR department LIKE '$query'
+    OR description LIKE '$query';");
+  
 
-  mysqli_stmt_bind_param($stmt, "i", $id);
+
+  mysqli_stmt_bind_param($stmt, "s", $id);
   mysqli_stmt_execute($stmt);
   $data = mysqli_stmt_get_result($stmt);
 
