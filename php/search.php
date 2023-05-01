@@ -1,7 +1,33 @@
 <?php
 
 if (isset($_GET['query'])) {
-    $query = $_GET['query'];
+  $query = $_GET['query'];
+  
+  $stmt = mysqli_prepare($con, 
+  "SELECT * FROM sjc.courses
+  WHERE column_name LIKE '$query'
+  UNION
+  SELECT * FROM sjc.books
+  WHERE column_name LIKE '$query';");
+
+  mysqli_stmt_bind_param($stmt, "i", $id);
+  mysqli_stmt_execute($stmt);
+  $data = mysqli_stmt_get_result($stmt);
+
+  $result = mysqli_fetch_assoc($data);
+
+  $title = $result["title"];
+  $description = $result["description"];
+  $year = $result["year"];
+  $category = $result["category"];
+  $page_count = $result["page_count"];
+  $author = $result["author"];
+  $publisher = $result["publisher"];
+  $isbn = $result["isbn"];
+  $price = $result["price"];
+  $cover = $result["cover"];
+
+
     $folder = '../courses/'; // folder to do search
     $pattern = $folder . '*.html'; // pattern to match HTML files in the folder
     $files = glob($pattern); // retrieve a list of all HTML files in the folder

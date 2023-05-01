@@ -1,0 +1,300 @@
+create database sjc;
+
+CREATE TABLE users (
+  idUsers NUMERIC(10,0) PRIMARY KEY NOT NULL,
+  pwdUsers LONGTEXT NOT NULL
+);
+
+insert into users (idUsers, pwdUsers)
+values
+('1082119766', 'password1'),
+('1082122717', 'password2'),
+('1082120227', 'password3');
+
+CREATE TABLE programs (
+  program_code VARCHAR() PRIMARY KEY NOT NULL,
+  program_name VARCHAR() NOT NULL;
+  course_id VARCHAR(7) NOT NULL,
+  credits TINYINT(1) UNSIGNED NOT NULL,
+  department VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE programcourse (
+  program_id VARCHAR(3) NOT NULL,
+  program_name VARCHAR(50) NOT NULL,
+  course_id VARCHAR(7) NOT NULL
+);
+
+Program Codes:
+BA - Business Administration
+ACC - Accounting
+ECO - Economics
+TM - Tourism Management
+ENT - Entrepreneurship
+CIS - Computer Information Systems
+CNT - Computer Networking
+CS - Computer Science
+MIS - Management Information Systems
+CGD - Computer Graphic Design
+EDU - Primary Education
+LIT - Literature
+FA - Fine Arts
+MU - Music
+BIO - Biology
+CHE - Chemistry
+ENS - Environmental Science
+MTH - Math
+PHY - Physics
+HIS - History
+SOC - Sociology
+IR - International Relations
+PSY - Psychology
+CJ - Criminal Justice
+LAW - Law
+
+INSERT INTO PROGRAMCOURSE (program_id, course_id)
+VALUES
+("BA", "ACC205"),
+("BA", "BUS105"),
+("BA", "BUS213"),
+("BA", "BUS222"),
+("BA", "BUS223"),
+("BA", "BUS224"),
+("BA", "BUS251"),
+("BA", "BUS252"),
+("BA", "BUS253"),
+
+("ACC", "ACC101"),
+("ACC", "ACC102"),
+("ACC", "ACC215"),
+("ACC", "ACC216"),
+
+("ECO", "ECO105"),
+("ECO", "ECO106"),
+("ECO", "ECO210"),
+("ECO", "ECO220"),
+
+("TM", "THM120"),
+("TM", "THM236"),
+("TM", "THM255"),
+
+("ENT", "ENT105"),
+("ENT", "ENT110"),
+("ENT", "ENT210"),
+("ENT", "ENT230"),
+
+("CIS", "CIS125"),
+("CIS", "CIS126"),
+("CIS", "CIS130"),
+("CIS", "CIS135"),
+("CIS", "CIS233"),
+("CIS", "CIS240"),
+("CIS", "CIS283"),
+("CIS", "CIS284"),
+("CIS", "CIS286"),
+("CIS", "CIS288"),
+("CIS", "CIS290"),
+("CIS", "CNT125"),
+
+("CNT", "CIS125"),
+("CNT", "CIS130"),
+("CNT", "CIS135"),
+("CNT", "CIS233"),
+("CNT", "CIS261"),
+("CNT", "CIS283"),
+("CNT", "CNT125"),
+("CNT", "CNT135"),
+("CNT", "CNT225"),
+("CNT", "CNT235"),
+("CNT", "CNT250"),
+("CNT", "CNT290"),
+
+("CS", "CIS125"),
+("CS", "CIS126"),
+("CS", "CIS130"),
+("CS", "CIS135"),
+("CS", "CIS233"),
+("CS", "CIS240"),
+("CS", "CIS286"),
+("CS", "CIS290"),
+("CS", "MTH119"),
+("CS", "MTH145"),
+("CS", "PY116"),
+("CS", "PHY116L"),
+
+("MIS", "CIS120"),
+("MIS", "CIS125"),
+("MIS", "CIS130"),
+("MIS", "CIS135"),
+("MIS", "CIS284"),
+("MIS", "CIS286"),
+("MIS", "CIS288"),
+("MIS", "MIS290"),
+
+("IT", "CIS125"),
+("IT", "CIS126"),
+("IT", "CIS130"),
+("IT", "CIS135"),
+("IT", "CIS233"),
+("IT", "CIS240"),
+("IT", "CIS261"),
+("IT", "CIS283"),
+("IT", "CIS284"),
+("IT", "CIS286"),
+("IT", "CIS288"),
+("IT", "CIS290"),
+("IT", "CNT125"),
+
+("CGD", "CGD118"),
+("CGD", "CGD217"),
+("CGD", "CGD220"),
+("CGD", "CGD226"),
+("CGD", "CGD230"),
+("CGD", "CGD255"),
+
+("EDU", "EDU111"),
+("EDU", "EDU112"),
+("EDU", "EDU115"),
+("EDU", "EDU120"),
+("EDU", "EDU131"),
+("EDU", "EDU132"),
+("EDU", "EDU133"),
+("EDU", "EDU210"),
+("EDU", "EDU225"),
+("EDU", "EDU226"),
+("EDU", "EDU230"),
+("EDU", "EDU232"),
+("EDU", "EDU234"),
+("EDU", "EDU238"),
+("EDU", "EDU290"),
+("EDU", "EDU291"),
+
+("LIT", "LIT151"),
+("LIT", "LIT152"),
+("LIT", "LIT153"),
+("LIT", "LIT251"),
+("LIT", "LIT252"),
+("LIT", "LIT253"),
+
+("FA", "ART105"),
+("FA", "ART110"),
+("FA", "ART113"),
+("FA", "ART114"),
+("FA", "ART118"),
+("FA", "ART221"),
+("FA", "ART222"),
+("FA", "ART245"),
+("FA", "ART255"),
+
+("MU", "MUEN100"),
+("MU", "MUEN101"),
+("MU", "MUEN200"),
+("MU", "MUEN201"),
+("MU", "MUGN200"),
+("MU", "MUHL106"),
+("MU", "MUHL201"),
+("MU", "MUPC110"),
+("MU", "MUPC111"),
+("MU", "MUPR100"),
+("MU", "MUPR101"),
+("MU", "MUPR200"),
+("MU", "MUPR201"),
+("MU", "MUTH100"),
+("MU", "MUTH101"),
+("MU", "MUTH200"),
+("MU", "MUTH201"),
+
+("BIO", "BIO131"),
+("BIO", "BIO131L"),
+("BIO", "BIO231"),
+("BIO", "BIO231L"),
+("BIO", "BIO232"),
+("BIO", "BIO240"),
+("BIO", "BIO240L"),
+("BIO", "BIO241"),
+("BIO", "BIO241L"),
+("BIO", "BIO242"),
+
+("CHE", "CHE123"),
+("CHE", "CHE123L"),
+("CHE", "CHE129"),
+("CHE", "CHE129L"),
+("CHE", "CHE136"),
+("CHE", "CHE140"),
+("CHE", "CHE140L"),
+("CHE", "CHE230"),
+("CHE", "CHE234"),
+("CHE", "CHE234L"),
+("CHE", "CHE239"),
+("CHE", "CHE239L"),
+
+("ENS", "ENS120"),
+("ENS", "ENS121"),
+("ENS", "ENS122"),
+("ENS", "ENS212"),
+("ENS", "ENS216"),
+("ENS", "ENS217"),
+("ENS", "ENS221"),
+("ENS", "ENS241"),
+
+("MTH", "MTH115"),
+("MTH", "MTH119"),
+("MTH", "MTH140"),
+("MTH", "MTH145"),
+("MTH", "MTH236"),
+("MTH", "MTH246"),
+("MTH", "MTH250"),
+("MTH", "MTH260"),
+
+("PHY", "PHY116"),
+("PHY", "PHY116L"),
+("PHY", "PHY120"),
+("PHY", "PHY130"),
+("PHY", "PHY130L"),
+("PHY", "PHY216"),
+("PHY", "PHY216L"),
+("PHY", "PHY226"),
+("PHY", "PHY226L"),
+("PHY", "PHY236"),
+("PHY", "PHY236L"),
+
+("HIS", "HIS153"),
+("HIS", "HIS161"),
+("HIS", "HIS242"),
+("HIS", "HIS251"),
+("HIS", "HIS252"),
+("HIS", "HIS261"),
+("HIS", "HIS262"),
+
+("SOC", "SOC134"),
+("SOC", "SOC144"),
+("SOC", "SOC214"),
+("SOC", "SOC234"),
+
+("IR", "GOV105"),
+("IR", "GOV115"),
+("IR", "GOV200"),
+
+("PSY", "PSY115"),
+("PSY", "PSY125"),
+("PSY", "PSY135"),
+("PSY", "PSY220"),
+("PSY", "PSY225"),
+("PSY", "PSY230"),
+
+("CJ", "LAW110"),
+("CJ", "LAW111"),
+("CJ", "LAW215"),
+("CJ", "CRJ235"),
+("CJ", "CRJ240"),
+("CJ", "CRJ245"),
+("CJ", "CRJ250"),
+("CJ", "CRJ255"),
+("CJ", "PDV210"),
+
+("LAW", "LAW110"),
+("LAW", "LAW111"),
+("LAW", "LAW210"),
+("LAW", "LAW215"),
+("LAW", "LAW225"),
+("LAW", "LAW230");

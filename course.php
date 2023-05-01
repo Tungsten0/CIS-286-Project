@@ -30,11 +30,11 @@ $txtbkid = $result["txtbkid"];
 <main>
 
     <div class="container">
-        <h1>Course ID: <?php echo $id; ?></h1> <br>
-        <p>Course Title: <?php echo $title; ?></p>
-        <p>Course Credits: <?php echo $credits; ?></p>
-        <p>Course Department: <?php echo $department; ?></p>
-        <p>Course Description: <?php echo $description; ?></p>
+        <h1>Course ID: <span style="font-weight: 400;"><?php echo strtoupper($id); ?></span> </h1>  <br>
+        <h5>Course Title: <span style="font-weight: 400;"> <?php echo $title; ?></span></h5>
+        <h5>Course Credits: <span style="font-weight: 400;"> <?php echo $credits; ?></span></h5>
+        <h5>Course Department: <span style="font-weight: 400;"> <?php echo $department; ?></span></h5>
+        <h5>Course Description: <span style="font-weight: 400;"> <?php echo $description; ?></span></h5>
         <a href="textbook.php?id=<?php echo $txtbkid?>" class="btn btn-primary ">Textbook</a>
     </div>
 

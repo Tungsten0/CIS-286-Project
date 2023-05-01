@@ -19,7 +19,7 @@
 
         <div>
             <?php
-                // if is true then logged in, else logged out
+                // popup(toast): if is true then logged in - else logged out
                 if(isset($_SESSION['userid'])) {
                     echo '
                     <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
@@ -65,7 +65,7 @@
                                 <h5 class="card-title" style="color: #200174; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
                                 <p class="card-text" style="font-size: xx-large; color: #200174;">
                                     Welcomes everyone, from students, parents, and to teachers. 
-                                    <a href="about.html" class="btn btn-primary" style="background-color: white; color: black;">Learn More</a> 
+                                    <a href="about.php" class="btn btn-primary" style="background-color: white; color: black;">Learn More</a> 
                                 </p>
                             </div>
                         </div>

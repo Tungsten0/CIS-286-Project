@@ -9,7 +9,7 @@
 $id = $_GET['id'];
 // Retrieve the tuple information from the database
 $stmt = mysqli_prepare($con, 
-"SELECT title, description, year, category, page_count, author, publisher, isbn, price 
+"SELECT title, description, year, category, page_count, author, publisher, isbn, price, cover
 FROM books
 WHERE id = ?");
 
@@ -28,7 +28,7 @@ $author = $result["author"];
 $publisher = $result["publisher"];
 $isbn = $result["isbn"];
 $price = $result["price"];
-
+$cover = $result["cover"];
 
 ?>
 
@@ -37,18 +37,21 @@ $price = $result["price"];
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <img alt="txtbk img">
+              <div class="d-flex flex-column">
+                <img src="<?php echo $cover; ?>" alt="txtbk img" height="400px" width="300px">
+                <button class="btn btn-primary mt-2" style="width: 300px;">Buy Now!</button>
+              </div>
             </div>
             <div class="col-8">
-            <h3><?php echo $title; ?></h3>
-            <h6>Description: <span style="font-weight: 400;"><?php echo $description; ?></span></h6>
-            <h6>Year Published: <span style="font-weight: 400;"><?php echo $year; ?></span></h6>
-            <h6>Category: <span style="font-weight: 400;"><?php echo $category; ?></span></h6>
-            <h6>Page Count: <span style="font-weight: 400;"><?php echo $page_count; ?></span></h6>
-            <h6>Author: <span style="font-weight: 400;"><?php echo $author; ?></span></h6>
-            <h6>Publisher: <span style="font-weight: 400;"><?php echo $publisher; ?></span></h6>
-            <h6>ISBN: <span style="font-weight: 400;"><?php echo $isbn; ?></span></h6>
-            <h6>Price: $<span style="font-weight: 400;"><?php echo $price; ?></span></h6>
+            <h1><?php echo $title; ?></h1>
+            <h4>Description: <span style="font-weight: 400;"><?php echo $description; ?></span></h4>
+            <h4>Year Published: <span style="font-weight: 400;"><?php echo $year; ?></span></h4>
+            <h4>Category: <span style="font-weight: 400;"><?php echo $category; ?></span></h4>
+            <h4>Page Count: <span style="font-weight: 400;"><?php echo $page_count; ?></span></h4>
+            <h4>Author: <span style="font-weight: 400;"><?php echo $author; ?></span></h4>
+            <h4>Publisher: <span style="font-weight: 400;"><?php echo $publisher; ?></span></h4>
+            <h4>ISBN: <span style="font-weight: 400;"><?php echo $isbn; ?></span></h4>
+            <h4>Price: $<span style="font-weight: 400;"><?php echo $price; ?></span></h4>
             </div>
         </div>
     </div>
