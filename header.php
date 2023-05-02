@@ -9,6 +9,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CIS-286-Project/css/bootstrap.css" />
+    <style>
+        /* hide arrows in input number */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+        input[type=number] { -moz-appearance: textfield;}
+    </style>
 </head>
 <body>
 <header class="border-bottom">
@@ -44,8 +53,8 @@
                     } else {
                         echo '  
                             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center" style="margin-left:25px;" action="php/login.php" method="post">
-                                <input class="form-control me-2" style="width: 25%" type="text" name="userid" placeholder="Student ID">
-                                <input class="form-control me-2" style="width: 25%" type="password" name="password" placeholder="Password">
+                                <input class="form-control me-2" style="width: 25%;" type="number" name="userid" placeholder="Student ID">
+                                <input class="form-control me-2" style="width: 25%;" type="password" name="password" placeholder="Password">
                                 <button type="submit button" name="login" class="btn btn-primary">Login</button>
                             </form>
                             ';
