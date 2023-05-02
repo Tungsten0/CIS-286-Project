@@ -5,9 +5,13 @@ CIS 286 Group Project
 Due date: May 5, 2023 at 11:59 p.m.
 
 Group structure:
+
 Programmer: Marco Lee-Shi
+
 Designer: Amali Teck
+
 Researcher: Leanna Gutierrez
+
 
 Overview
 This assessment provides an opportunity for you to apply the concepts and technologies
@@ -17,6 +21,7 @@ have a non-trivial web application that can be a reasonable portfolio piece.
 If working in a group, each member needs to take responsibility for and complete an
 appropriate amount of the project. Be sure to consult the instructor at least one week prior to
 the due date if your group is experiencing serious problems in this regard.
+
 
 Guidance
 There are three key parts to this project:
@@ -31,6 +36,7 @@ course pages, and the other does the textbook pages).
 database access, so I would recommend taking the later approach.
 - For the program design marks, be sure to use functions and include files to reduce code and
 markup duplication.
+
 
 Requirements
 This project consists of 8 pages minimum with the following functionality:
