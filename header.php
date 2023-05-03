@@ -1,4 +1,5 @@
 <?php
+    include "php/errorcheck.php";
     session_start();
 ?>
 
@@ -16,7 +17,6 @@
         -webkit-appearance: none;
         margin: 0;
         }
-        input[type=number] { -moz-appearance: textfield;}
     </style>
 </head>
 <body>
@@ -37,7 +37,7 @@
                     <li><a class="link-body-emphasis dropdown-item" href="program-detail.php">Program Detail</a></li>
                     <li><a class="link-body-emphasis dropdown-item" href="#">Course Detail</a></li>
                 </ul>
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center" role="search" action="php/search.php" method="get">
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center" role="search" action="search.php" method="get">
                     <input class="form-control me-2" type="text" name="query" placeholder="Search..." aria-label="Search">
                 </form>
             </ul>

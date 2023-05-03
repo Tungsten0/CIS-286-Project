@@ -5,11 +5,8 @@ CIS 286 Group Project
 Due date: May 5, 2023 at 11:59 p.m.
 
 Group structure:
-
 Programmer: Marco Lee-Shi
-
 Designer: Amali Teck
-
 Researcher: Leanna Gutierrez
 
 
