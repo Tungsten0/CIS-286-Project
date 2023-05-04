@@ -35,7 +35,6 @@ if (isset($_GET['query'])) {
 <main>
   <section class="container" style="margin-top: 10px;">
     <h2 style="color: #200174;">Search Results for <span style="color:black; font-weight: 400; font-style:italic;"><?php echo $query ?></span></h2>
-    <h6 style="margin-top: 10px; color: #200174;">eg: cis125 bus105</h6>
     <br>
     <h6><?php // echo $title; ?> </h6>
     <?php 
@@ -50,6 +49,8 @@ if (isset($_GET['query'])) {
         echo "No results found.";
       }
     ?>
+    <br>
+    <br>
   </section>
 </main>
 

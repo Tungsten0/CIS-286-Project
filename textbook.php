@@ -1,14 +1,15 @@
 <?php
-  require "header.php";
   require "php/connection.php";
+  require "header.php";
 ?>
 
 <?php
 
+if(isset($_GET['id'])) {
 // Retrieve the ID from the URL parameter
 $id = $_GET['id'];
 // Retrieve the tuple information from the database
-$stmt = mysqli_prepare($con, 
+$stmt = mysqli_prepare($con,
 "SELECT title, description, year, category, page_count, author, publisher, isbn, price, cover
 FROM books
 WHERE id = ?");
@@ -18,6 +19,7 @@ mysqli_stmt_execute($stmt);
 $data = mysqli_stmt_get_result($stmt);
 
 $result = mysqli_fetch_assoc($data);
+
 
 $title = $result["title"];
 $description = $result["description"];
@@ -30,6 +32,13 @@ $isbn = $result["isbn"];
 $price = $result["price"];
 $cover = $result["cover"];
 
+if($title == null) {
+  header("Location: error.php");
+}
+
+} else {
+  header("Location: error.php");
+}
 ?>
 
 <main style="margin-top: 50px; margin-bottom:50px;">

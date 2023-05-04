@@ -1,5 +1,4 @@
 <?php
-    include "php/errorcheck.php";
     session_start();
 ?>
 
