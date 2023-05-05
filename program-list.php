@@ -1,8 +1,6 @@
 <?php
   require "header.php";
 ?>
-
-<main>
         
         <div class="container" style="margin-top:10px;">
             <h2 style="color: #200174;">St John's College Junior College Departments-Tracks-Programs</h2>

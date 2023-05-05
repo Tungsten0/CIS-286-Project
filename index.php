@@ -92,7 +92,7 @@
 
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card animate__fade">
                         <div class="card-body">
                             <h5 class="card-title" style="color: #200174;">Humanities and Education Department</h5>
                         </div>
