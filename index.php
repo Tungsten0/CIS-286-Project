@@ -58,12 +58,12 @@
 
                 <div class="row justify-content-start align-items-center h-100">
                     <div class="col-md-6">
-                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 50px; background-color: #7a85b3;">
+                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 50px; background-color: #200174;">
                             <div class="card-body">
-                                <h5 class="card-title" style="color: #200174; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
-                                <p class="card-text" style="font-size: xx-large; color: #200174;">
+                                <h5 class="card-title" style="color: white; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
+                                <p class="card-text" style="font-size: xx-large; color: white;">
                                     Welcomes everyone, from students, parents, and to teachers. 
-                                    <a href="about.php" class="btn btn-primary" style="background-color: white; color: black;">Learn More</a> 
+                                    <a href="about.php" class="btn btn-outline-dark btn-primary" style="background-color: white; color: black;">Learn More</a> 
                                 </p>
                             </div>
                         </div>
