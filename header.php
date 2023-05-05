@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-<header class="border-bottom">
+<header class="border-bottom fixed-top" style="background-color: white;">
     <div class="container-fluid">
         <div class="p-3" style="height: 40px; background-color: #200174;"></div>
 
@@ -66,3 +66,5 @@
         </div>
     </div>
 </header>
+
+<main style="margin-top: 5%; margin-bottom: 5%;">

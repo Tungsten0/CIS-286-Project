@@ -2,8 +2,6 @@
   require "header.php";
 ?>
 
-    <!--margin-top cus header will always take up around 100px of the top screen-->
-    <main>
         <!-- Include Bootstrap 5 CSS and JavaScript files -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.js"></script>
@@ -60,10 +58,10 @@
 
                 <div class="row justify-content-start align-items-center h-100">
                     <div class="col-md-6">
-                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 50px; background-color: #7a85b3;">
+                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 50px; background-color: #200174;">
                             <div class="card-body">
-                                <h5 class="card-title" style="color: #200174; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
-                                <p class="card-text" style="font-size: xx-large; color: #200174;">
+                                <h5 class="card-title" style="color: white; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
+                                <p class="card-text" style="font-size: xx-large; color: white;">
                                     Welcomes everyone, from students, parents, and to teachers. 
                                     <a href="about.php" class="btn btn-primary" style="background-color: white; color: black;">About Us</a> 
                                 </p>

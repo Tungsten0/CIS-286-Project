@@ -32,7 +32,7 @@ if (isset($_GET['query'])) {
 }
 
 ?>
-<main>
+
   <section class="container" style="margin-top: 10px;">
     <h2 style="color: #200174;">Search Results for <span style="color:black; font-weight: 400; font-style:italic;"><?php echo $query ?></span></h2>
     <br>
