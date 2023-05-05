@@ -55,8 +55,8 @@
         
         <!--Infocard w/ fixed background-->
         <section>
-            <div class="container-fluid" style="background-image: url('media/school.png'); height: 750px; 
-            background-attachment: fixed, fixed, fixed, scroll; background-repeat: no-repeat; background-size: cover;">
+            <div class="container-fluid" style="background-image: url('media/schoolgate.png'); height: 750px; 
+            background-attachment: fixed, fixed, fixed, scroll; background-repeat: no-repeat; background-position: center center">
 
                 <div class="row justify-content-start align-items-center h-100">
                     <div class="col-md-6">
@@ -65,7 +65,7 @@
                                 <h5 class="card-title" style="color: #200174; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
                                 <p class="card-text" style="font-size: xx-large; color: #200174;">
                                     Welcomes everyone, from students, parents, and to teachers. 
-                                    <a href="about.php" class="btn btn-primary" style="background-color: white; color: black;">Learn More</a> 
+                                    <a href="about.php" class="btn btn-primary" style="background-color: white; color: black;">About Us</a> 
                                 </p>
                             </div>
                         </div>
