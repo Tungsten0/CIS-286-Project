@@ -63,7 +63,7 @@
                                 <h5 class="card-title" style="color: white; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
                                 <p class="card-text" style="font-size: xx-large; color: white;">
                                     Welcomes everyone, from students, parents, and to teachers. 
-                                    <a href="about.php" class="btn btn-outline-dark btn-primary" style="background-color: white; color: black;">Learn More</a> 
+                                    <a href="about.php" class="btn btn-outline-dark btn-primary" style="background-color: white; color: black;">About Us</a> 
                                 </p>
                             </div>
                         </div>
