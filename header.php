@@ -67,4 +67,4 @@
     </div>
 </header>
 
-<main style="margin-top: 5%; margin-bottom: 5%;">
+<main style="margin-top: 100px; margin-bottom: 100px;">
