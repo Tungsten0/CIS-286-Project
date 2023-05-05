@@ -54,7 +54,6 @@ $department = $result["department"];
 ?>
 
 
-<main>
 
     <div class="container">
         <h1>Program: <span style="font-weight: 400;"><?php echo ucwords($program_name); ?></span> </h1>

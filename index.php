@@ -2,8 +2,6 @@
   require "header.php";
 ?>
 
-    <!--margin-top cus header will always take up around 100px of the top screen-->
-    <main>
         <!-- Include Bootstrap 5 CSS and JavaScript files -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.js"></script>

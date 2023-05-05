@@ -38,7 +38,6 @@ if($title == null) {
 
 ?>
 
-<main>
 
     <div class="container">
         <h1>Course ID: <span style="font-weight: 400;"><?php echo strtoupper($id); ?></span> </h1>  <br>
