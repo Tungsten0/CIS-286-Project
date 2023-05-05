@@ -42,7 +42,8 @@ if (isset($_GET['query'])) {
         echo "<table>";
         echo "<tr><th>ID</th><th>Title</th><th>Department</th><th>Description</th></tr>";
         foreach ($results as $row) {
-          echo "<tr><td>{$row['id']}</td><td>{$row['title']}</td><td>{$row['department']}</td><td>{$row['description']}</td></tr>";
+          $course_id = $row['id'];
+          echo "<tr><td><a href=\"course.php?id={$course_id}\" style=\"text-decoration: none;\">{$course_id}</a></td><td>{$row['title']}</td><td>{$row['department']}</td><td>{$row['description']}</td></tr>";
         }
         echo "</table>";
       } else {
