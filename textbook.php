@@ -42,11 +42,11 @@ if($title == null) {
 ?>
 
 
-  <div class="container">
+  <div class="container" style="padding: 50px;">
     <div class="row">
       <div class="col-4">
         <div class="d-flex flex-column">
-          <img src="<?php echo $cover; ?>" alt="txtbk img" style="height:400px; width:300px; margin-top:50px">
+          <img src="<?php echo $cover; ?>" alt="txtbk img" style="height:400px; width:300px; margin-top: 30px;">
           <div>
             <?php
               // popup(toast): if is true then logged in - else logged out
@@ -64,15 +64,31 @@ if($title == null) {
         </div>
       </div>
       <div class="col-8">
-        <h1><?php echo $title; ?></h1>
-        <h4>Description: <span style="font-weight: 400;"><?php echo $description; ?></span></h4>
-        <h4>Year Published: <span style="font-weight: 400;"><?php echo $year; ?></span></h4>
-        <h4>Category: <span style="font-weight: 400;"><?php echo $category; ?></span></h4>
-        <h4>Page Count: <span style="font-weight: 400;"><?php echo $page_count; ?></span></h4>
-        <h4>Author: <span style="font-weight: 400;"><?php echo $author; ?></span></h4>
-        <h4>Publisher: <span style="font-weight: 400;"><?php echo $publisher; ?></span></h4>
-        <h4>ISBN: <span style="font-weight: 400;"><?php echo $isbn; ?></span></h4>
-        <h4>Price: <span style="font-weight: 400;">$<?php echo $price; ?></span></h4>
+        <h2><?php echo $title; ?></h2>
+        <div class="card">
+        <div class="row" style="padding: 20px">
+          <div class="col-md-6 themed-grid-col text-start">
+            <h4>Year Published: <span style="font-weight: 400;"><?php echo $year; ?></span></h4>
+            <h4>Category: <span style="font-weight: 400;"><?php echo $category; ?></span></h4>
+            <h4>Author: <span style="font-weight: 400;"><?php echo $author; ?></span></h4>
+            <h4>Publisher: <span style="font-weight: 400;"><?php echo $publisher; ?></span></h4>
+          </div>
+          <div class="col-md-6 themed-grid-col text-start">
+            <h4>Page Count: <span style="font-weight: 400;"><?php echo $page_count; ?></span></h4>
+            <h4>ISBN: <span style="font-weight: 400;"><?php echo $isbn; ?></span></h4>
+            <h4>Price: <span style="font-weight: 400;">$<?php echo $price; ?></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="margin-top: 20px; padding: 20px;">
+        <h5>Description: <span style="font-weight: 400;"><?php echo $description; ?></span></h5>
+      </div>
+        
+        
+        
+        
+        
+        
       </div>
     </div>
   </div>
