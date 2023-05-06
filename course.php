@@ -78,22 +78,6 @@ if($title == null) {
   </div>
 </section>
 
-    <div class="container">
-        <h1>Course ID: <span style="font-weight: 400;"><?php echo strtoupper($id); ?></span> </h1>  <br>
-        <h5>Course Title: <span style="font-weight: 400;"> <?php echo $title; ?></span></h5>
-        <h5>Course Credits: <span style="font-weight: 400;"> <?php echo $credits; ?></span></h5>
-        <h5>Course Department: <span style="font-weight: 400;"> <?php echo $department; ?></span></h5>
-        <h5>Course Description: <span style="font-weight: 400;"> <?php echo $description; ?></span></h5>
-        <?php 
-        if($txtbkid == 0) {
-          echo '<h5 style="color: red;">No textbook</h5>';
-        } else {
-          echo '<a href="textbook.php?id=' . $txtbkid . '" class="btn btn-primary ">Textbook</a>';
-        } 
-        ?>
-        
-    </div>
-
 </main>
 
 <?php
