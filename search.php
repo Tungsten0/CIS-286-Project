@@ -35,15 +35,27 @@ if (isset($_GET['query'])) {
 
   <section class="container" style="margin-top: 10px;">
     <h2 style="color: #200174;">Search Results for <span style="color:black; font-weight: 400; font-style:italic;"><?php echo $query ?></span></h2>
+    <p style="font-style: italic;">Note that search function is space sensative</p>
     <br>
-    <h6><?php // echo $title; ?> </h6>
     <?php 
       if (count($results) > 0) {
         echo "<table>";
-        echo "<tr><th>ID</th><th>Title</th><th>Department</th><th>Description</th></tr>";
+        echo "
+        <tr>
+          <th style='padding: 20px; font-size: 20px;'>ID</th>
+          <th style='padding: 20px; font-size: 20px;'>Title</th>
+          <th style='padding: 20px; font-size: 20px;'>Department</th>
+          <th style='padding: 20px; font-size: 20px;'>Description</th>
+        </tr>";
         foreach ($results as $row) {
           $course_id = $row['id'];
-          echo "<tr><td><a href=\"course.php?id={$course_id}\" style=\"text-decoration: none;\">{$course_id}</a></td><td>{$row['title']}</td><td>{$row['department']}</td><td>{$row['description']}</td></tr>";
+          echo "
+            <tr>
+              <td style='padding: 20px;'><a href=\"course.php?id={$course_id}\" style=\"text-decoration: none;\">{$course_id}</a></td>
+              <td style='padding: 20px;'>{$row['title']}</td>
+              <td style='padding: 20px;'>{$row['department']}</td>
+              <td style='padding: 20px;'>{$row['description']}</td>
+            </tr>";
         }
         echo "</table>";
       } else {

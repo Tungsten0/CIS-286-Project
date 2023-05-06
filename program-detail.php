@@ -75,11 +75,11 @@ $department = $result["department"];
 
 
     <div class="container">
-        <h1>Program: <span style="font-weight: 400;"><?php echo ucwords($program_name); ?></span> </h1>
-        <h2>Program ID: <span style="font-weight: 400;"><?php echo strtoupper($program_id); ?></span> </h2> <br>
+        <h1>Program: <span style="font-weight: 400;"><?php echo ucwords($program_name); ?></span> </h1> <br>
+        <h3>Program ID: <span style="font-weight: 400;"><?php echo strtoupper($program_id); ?></span> </h3>
 
         <h4>Credits: <span style="font-weight: 400;"> <?php echo $credits; ?></span></h4>
-        <h4>Department: <span style="font-weight: 400;"> <?php echo $department; ?></span></h4>
+        <h4>Department: <span style="font-weight: 400;"> <?php echo $department; ?></span></h4> <br>
         <h5>Professional Core Courses:</h5>
         
         <div class="parent-container" style="overflow: auto;">
