@@ -20,10 +20,14 @@ $page_count = $result["page_count"];
 $publisher = $result["publisher"];
 $price = $result["price"];
 
+//so that there are no weird characters like '' () "" etc
+$title = mysqli_real_escape_string($con, $title);
+
+
 //prepare and send sql statement to save to database & email
 $sql2 = 
-"INSERT INTO orders (student_id, textbook, price) 
-VALUES ('$student_id', '$textbook', $price);";
+"INSERT INTO orders (student_id, textbook, title, price) 
+VALUES ('$student_id', '$textbook', '$title', '$price');";
 
 if (mysqli_query($con, $sql2)) {
     echo "Order placed successfully! <br>";

@@ -7,6 +7,51 @@
         <script src="js/bootstrap.js"></script>
 
         <style> 
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        .myimg {
+            height: 300px;
+            width: 300px;
+            border-radius: 3px;
+        }
+        .mycard {
+            height: 300px;
+            width: 300px;
+            box-shadow: 5px 5px 20px black;
+            overflow: hidden;
+        }
+        .intro {
+            height: 50px;
+            width: 300px;
+            box-sizing: border-box;
+            padding: 6px;
+            position: absolute;
+            background: rgb(27, 27, 27, .5);
+            color: white;
+            bottom: -260px;
+            transition: .5s;
+        }
+        .content {
+            font-size: 15px;
+            margin: 5px;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .mycard:hover {
+            cursor: pointer;
+        }
+        .mycard:hover .intro {
+            height: 200px;
+            bottom: -260px;
+            background: black;
+        }
+        .mycard:hover .content {
+            opacity: 1;
+            visibility: visible;
+        }
+
         .toast {
             position: fixed;
             top: 100px;
@@ -20,7 +65,7 @@
                 // popup(toast): if is true then logged in - else logged out
                 if(isset($_SESSION['userid'])) {
                     echo '
-                    <div class="toast align-items-center" style="width:200px;" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast align-items-center" style="width:175px; top: 200px;" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex">
                             <div class="toast-body">
                                 <p style="margin-bottom:-3px;" class="login-status"> You are logged in </p>
@@ -31,7 +76,7 @@
                         ';
                 } else {
                     echo '
-                    <div class="toast align-items-center" style="width:200px;" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast align-items-center" style="width:175px;" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex">
                             <div class="toast-body">
                                 <p style="margin-bottom:-3px;" class="login-status"> You are logged out </p>
@@ -79,85 +124,78 @@
 
         
         
-        <section class="container" style="margin-top: 10px;">
-
-            <div class="card" style="margin-bottom:15px;">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: #200174;">Computer Science Department</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="program-list.php?#CS" style="text-decoration: none;">Computer Science Track</a></li>
-                </ul>
+        <section class="container-fluid" style="margin-top: 10px; background: witesmoke;">
+        <div class="row mb-3 justify-content-center">
+            <div class="col-2 themed-grid-col">
+                <a href="program-list.php?#CS" style="text-decoration: none;">
+                    <div class="mycard">
+                        <img class="myimg" src="media/index/computerscience.jpg" alt="computer science">
+                        <div class="intro">
+                            <h4>Computer Science</h4>
+                            <p class="content">Computer Science Track</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-
-            <div class="row">
-                <div class="col">
-                    <div class="card animate__fade">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #200174;">Humanities and Education Department</h5>
+            <div class="col-2 themed-grid-col">
+                <a href="program-list.php?#MTHSCI" style="text-decoration: none;">
+                    <div class="mycard">
+                        <img class="myimg" src="media/index/mathscience.jpg" alt="math & science">
+                        <div class="intro">
+                            <h4>Math & Science</h4>
+                            <p class="content">Math & Physics Track</p>
+                            <p class="content">Biology & Chemistry Track</p>
+                            <p class="content">Interdisciplinary Science Track</p>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="program-list.php?#CGD" style="text-decoration: none;">Comercial Graphic Design Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#EDU" style="text-decoration: none;">Education Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#HISLIT" style="text-decoration: none;">History & Literature Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#LA" style="text-decoration: none;">Liberal Arts Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#FA" style="text-decoration: none;">Fine Arts & Music</a></li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #200174;">Math & Science Department</h5>
-                        </div>
-                        <ul class="list-group list-group-flush" style="text-decoration: none;">
-                            <li class="list-group-item"><a href="program-list.php?#BIOCHE" style="text-decoration: none;">Biology & Chemistry Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#MTHPHY" style="text-decoration: none;">Math & Physics Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#IS" style="text-decoration: none;">Interdisciplinary Science Track</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #200174;">Social Sciences Department</h5>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="program-list.php?#HISECO" style="text-decoration: none;">History & Economics Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#SOCPSY" style="text-decoration: none;">Sociology & Psychology Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#CJ" style="text-decoration: none;">Criminal Justice & Law Track</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #200174;">Business Department</h5>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="program-list.php?#BA" style="text-decoration: none;">Business Administration Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#TM" style="text-decoration: none;">Tourism Management Track</a></li>
-                            <li class="list-group-item"><a href="program-list.php?#ENT" style="text-decoration: none;">Entrepreneurship Track</a></li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-                <div class="col">
-                    
-                </div>
+                </a>
             </div>
+            <div class="col-2 themed-grid-col">
+                <a href="program-list.php?#SOCSCI" style="text-decoration: none;">
+                    <div class="mycard">
+                        <img class="myimg" src="media/index/socialscience.jpg" alt="social sciences">
+                        <div class="intro">
+                            <h4>Social Sciences</h4>
+                            <p class="content">History & Economics Track</p>
+                            <p class="content">Sociology & Psychology Track</p>
+                            <p class="content">Criminal Justice & Law Track</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-2 themed-grid-col">
+                <a href="program-list.php?#HUMAN" style="text-decoration: none;">
+                    <div class="mycard">
+                        <img class="myimg" src="media/index/humanitieseducation.jpg" alt="humanities and education">
+                        <div class="intro">
+                            <h4>Humanities and Education</h4>
+                            <p class="content">Education Track</p>
+                            <p class="content">Fine Arts & Music</p>
+                            <p class="content">Liberal Arts Track</p>
+                            <p class="content">History & Literature Track</p>
+                            <p class="content">Comercial Graphic Design Track</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-2 themed-grid-col">
+                <a href="program-list.php?#BUS" style="text-decoration: none;">
+                    <div class="mycard">
+                        <img class="myimg" src="media/index/business.jpg" alt="business">
+                        <div class="intro">
+                            <h4>Business</h4>
+                            <p class="content">Entrepreneurship Track</p>
+                            <p class="content">ourism Management Track</p>
+                            <p class="content">Business Administration Track</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+            
         </section>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
     </main>
     
 <?php

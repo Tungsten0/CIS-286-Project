@@ -1,5 +1,8 @@
 <?php
+    require "php/connection.php";
     session_start();
+
+    $student_id = $_SESSION['userid'];
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +19,7 @@
         -webkit-appearance: none;
         margin: 0;
         }
+        
     </style>
 </head>
 <body>
@@ -29,13 +33,8 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="../CIS-286-Project/index.php" class="nav-link px-2 link-body-emphasis">Home</a></li>
                 <li><a href="../CIS-286-Project/about.php" class="nav-link px-2 link-body-emphasis">About Us</a></li>
-
-                <a class="nav-link link-dark link-body-emphasis dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="link-body-emphasis dropdown-item" href="../CIS-286-Project/program-list.php">Program List</a></li>
-                    <li><a class="link-body-emphasis dropdown-item" href="program-detail.php">Program Detail</a></li>
-                    <li><a class="link-body-emphasis dropdown-item" href="#">Course Detail</a></li>
-                </ul>
+                <li><a href="../CIS-286-Project/program-list.php" class="nav-link px-2 link-body-emphasis">Program List</a></li>
+                
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center" role="search" action="search.php" method="get">
                     <input class="form-control me-2" type="text" name="query" placeholder="Search..." aria-label="Search">
                 </form>
@@ -45,9 +44,17 @@
                 <?php
                     if(isset($_SESSION['userid'])) {
                         echo '  
-                            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center" style="margin-left:-175px;" role="search" action="php/logout.php" method="post">
-                                <button type="submit button link-dark" name="logout" class="btn btn-outline-primary me-2" name="logout">Logout</button>
-                            </form>
+                            <a class="nav-link link-dark link-body-emphasis dropdown-toggle" id="navbarDropdown" 
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 75px;">' . $student_id . '</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="link-body-emphasis dropdown-item" href="../CIS-286-Project/profile.php">Profile</a></li>
+                                <li>
+                                    <form role="search" action="php/logout.php" method="post">
+                                        <button type="submit button link-dark" name="logout" class="link-body-emphasis dropdown-item" name="logout">Logout</button>
+                                    </form>
+                                </li>
+                            </ul>
+                            
                             ';
                     } else {
                         echo '  

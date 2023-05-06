@@ -52,7 +52,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr id="BA">
+                  <tr id="BUS">
                     <td>Business</td>
                     <td>Business Administration</td>
                     <td><a href="program-detail.php?id=BA" style="text-decoration: none;">Business Administration</a></td>
@@ -77,12 +77,12 @@
                     <td>Business Administration</td>
                     <td><a href="program-detail.php?id=BACGD" style="text-decoration: none;">Business Administration with Graphic Design</a></td>
                   </tr>
-                  <tr id="TM">
+                  <tr>
                     <td>Business</td>
                     <td>Tourism Management</td>
                     <td><a href="program-detail.php?id=TM" style="text-decoration: none;">Tourism Management</a></td>
                   </tr>
-                  <tr id="ENT">
+                  <tr>
                     <td>Business</td>
                     <td>Entrepreneurship</td>
                     <td><a href="program-detail.php?id=ENT" style="text-decoration: none;">Entrepreneurship</a></td>
@@ -117,12 +117,12 @@
                     <td>History and Literature</td>
                     <td><a href="program-detail.php?id=LIT" style="text-decoration: none;">Literature</a></td>
                   </tr>
-                  <tr id="HISLIT">
+                  <tr id="HUMAN">
                     <td>Humanities & Education</td>
                     <td>History and Literature</td>
                     <td><a href="program-detail.php?id=HISLIT" style="text-decoration: none;">History and Literature</a></td>
                   </tr>
-                  <tr id="FA">
+                  <tr>
                     <td>Humanities & Education</td>
                     <td>Fine Arts & Music</td>
                     <td><a href="program-detail.php?id=FA" style="text-decoration: none;">Fine Arts</a></td>
@@ -132,7 +132,7 @@
                     <td>Fine Arts & Music</td>
                     <td><a href="program-detail.php?id=MU" style="text-decoration: none;">Music</a></td>
                   </tr>
-                  <tr id="FA">
+                  <tr>
                     <td>Humanities & Education</td>
                     <td>Fine Arts & Music</td>
                     <td><a href="program-detail.php?id=FAM" style="text-decoration: none;">Fine Arts & Music</a></td>
@@ -142,17 +142,17 @@
                     <td>Liberal Arts</td>
                     <td><a href="program-detail.php?id=LA" style="text-decoration: none;">Liberal Arts</a></td>
                   </tr>
-                  <tr id="CGD">
+                  <tr>
                     <td>Humanities & Education</td>
                     <td>Comercial Graphic Design</td>
                     <td><a href="program-detail.php?id=CGD" style="text-decoration: none;">Comercial Graphic Design</a></td>
                   </tr>
-                  <tr id="EDU">
+                  <tr>
                     <td>Humanities & Education</td>
                     <td>Education</td>
                     <td><a href="program-detail.php?id=EDU" style="text-decoration: none;">Primary Education</a></td>
                   </tr>
-                  <tr>
+                  <tr id="MTHSCI">
                     <td>Math & Science</td>
                     <td>Biology & Chemistry</td>
                     <td><a href="program-detail.php?id=BIO" style="text-decoration: none;">Biology</a></td>
@@ -162,7 +162,7 @@
                     <td>Biology & Chemistry</td>
                     <td><a href="program-detail.php?id=CHE" style="text-decoration: none;">Chemistry</a></td>
                   </tr>
-                  <tr id="BIOCHE">
+                  <tr>
                     <td>Math & Science</td>
                     <td>Biology & Chemistry</td>
                     <td><a href="program-detail.php?id=BIOCHE" style="text-decoration: none;">Biology & Chemistry</a></td>
@@ -172,7 +172,7 @@
                     <td>Biology & Chemistry</td>
                     <td><a href="program-detail.php?id=ENS" style="text-decoration: none;">Environmental Science</a></td>
                   </tr>
-                  <tr id="MTHPHY">
+                  <tr>
                     <td>Math & Science</td>
                     <td>Math & Physics</td>
                     <td><a href="program-detail.php?id=MTH" style="text-decoration: none;">Math</a></td>
@@ -187,12 +187,12 @@
                     <td>Math & Physics</td>
                     <td><a href="program-detail.php?id=PHY" style="text-decoration: none;">Physics</a></td>
                   </tr>
-                  <tr id="IS">
+                  <tr>
                     <td>Math & Science</td>
                     <td>Interdisciplinary Science</td>
                     <td><a href="program-detail.php?id=IS" style="text-decoration: none;">Interdisciplinary Science</a></td>
                   </tr>
-                  <tr>
+                  <tr id="SOCSCI">
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
                     <td><a href="program-detail.php?id=HIS" style="text-decoration: none;">History</a></td>
@@ -202,7 +202,7 @@
                     <td>History & Economics</td>
                     <td><a href="program-detail.php?id=ECO" style="text-decoration: none;">Economics</a></td>
                   </tr>
-                  <tr id="HISECO">
+                  <tr>
                     <td>Social Sciences</td>
                     <td>History & Economics</td>
                     <td><a href="program-detail.php?id=HISECO" style="text-decoration: none;">History & Economics</a></td>
@@ -227,7 +227,7 @@
                     <td>Sociology & Psychology</td>
                     <td><a href="program-detail.php?id=PSY" style="text-decoration: none;">Psychology</a></td>
                   </tr>
-                  <tr id="SOCPSY">
+                  <tr>
                     <td>Social Sciences</td>
                     <td>Sociology & Psychology</td>
                     <td><a href="program-detail.php?id=SOCPSY" style="text-decoration: none;">Sociology & Psychology</a></td>
@@ -237,7 +237,7 @@
                     <td>Sociology & Psychology</td>
                     <td><a href="program-detail.php?id=SOCECO" style="text-decoration: none;">Sociology & Economics</a></td>
                   </tr>
-                  <tr id="CJ">
+                  <tr>
                     <td>Social Sciences</td>
                     <td>Criminal Justice & Law</td>
                     <td><a href="program-detail.php?id=CR" style="text-decoration: none;">Criminal Justice</a></td>
