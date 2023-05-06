@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 02, 2023 at 01:47 AM
+-- Generation Time: May 06, 2023 at 07:53 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -376,6 +376,7 @@ CREATE TABLE `orders` (
   `order_id` int(11) NOT NULL,
   `student_id` int(11) NOT NULL,
   `textbook` varchar(255) NOT NULL,
+  `title` varchar(150) NOT NULL,
   `price` decimal(8,2) NOT NULL,
   `order_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -384,12 +385,10 @@ CREATE TABLE `orders` (
 -- Dumping data for table `orders`
 --
 
-INSERT INTO `orders` (`order_id`, `student_id`, `textbook`, `price`, `order_date`) VALUES
-(9, 1082119766, '9783659276521', '75.00', '2023-05-01 23:21:55'),
-(10, 1082119766, '9783659276521', '75.00', '2023-05-01 23:27:31'),
-(11, 1082119766, '9783659276521', '75.00', '2023-05-01 23:29:35'),
-(12, 1082119766, '9783659276521', '75.00', '2023-05-01 23:29:45'),
-(13, 1082119766, '9781285867502', '30.00', '2023-05-01 23:30:10');
+INSERT INTO `orders` (`order_id`, `student_id`, `textbook`, `title`, `price`, `order_date`) VALUES
+(2, 1082119766, '9781401852306', 'A+ Guide to PC Hardware Maintenance & Repair 1st Edition', '20.00', '2023-05-06 03:49:15'),
+(3, 1082119766, '9781681987750', 'The Art and Science of Drawing: Learn to Observe, Analyze, and Draw Any Subject', '30.00', '2023-05-06 03:50:21'),
+(4, 1082119766, '9780134400242', 'Starting Out with C++: Early Objects (9th Edition)', '50.00', '2023-05-06 03:50:35');
 
 -- --------------------------------------------------------
 
@@ -961,7 +960,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 
 --
