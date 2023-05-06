@@ -20,6 +20,9 @@ $data = mysqli_stmt_get_result($stmt);
 
 $result = mysqli_fetch_assoc($data);
 
+if($result == null) {
+  header("Location: error.php");
+}
 
 $title = $result["title"];
 $description = $result["description"];

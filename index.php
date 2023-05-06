@@ -33,7 +33,7 @@
             position: absolute;
             background: rgb(27, 27, 27, .5);
             color: white;
-            bottom: -210px;
+            bottom: -160px;
             transition: .5s;
         }
         .content {
@@ -105,7 +105,7 @@
 
                 <div class="row justify-content-start align-items-center h-100">
                     <div class="col-md-6">
-                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 50px; background-color: #200174;">
+                        <div class="card" style="width: 500px; height: 325px; position: relative; left: 190px; top: 180px; background-color: #200174;">
                             <div class="card-body">
                                 <h5 class="card-title" style="color: white; font-size: 350%; font-weight: bold;">St. John's College Junior College</h5>
                                 <p class="card-text" style="font-size: xx-large; color: white;">

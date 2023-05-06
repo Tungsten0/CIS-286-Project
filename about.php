@@ -26,7 +26,7 @@
 
         .members{
             display: grid; 
-            grid-template-column: 1fr 1fr; 
+            grid-template-columns: 1fr 1fr; 
             grid-template-rows: auto auto;
             gap: 20px; 
             padding: 2rem;
@@ -53,9 +53,9 @@
 
         .member-card h2{
             text-align: center;
-            color:#222;
-            font-weight:400;
-            font-size: 1.2rem;
+            color: #200174;
+            font-weight:560;
+            font-size:1.4rem;
             margin: 1rem;
         }
 
@@ -95,58 +95,68 @@
     </style>
     <main style="background-color: #200174;">
 
-    <div class="aboutus">
+    <div class="aboutus" style="background-color: rgb(13,31,79);">
         <!--top text and description-->
-    <div class ="team-members">
-        <div class = "members">
-            <div class="member-card">
-                <img src="media/Head Programmer.png" alt="Head-Programmer Icon";
-                <h2>Marco Lee-Shi</h2>
-                <h5>Head Programmer </h5>
+        <div class="container">
+        <div class="row mb-3 text-center" >
+                <div class ="team-members">
+                    <div class="col-4 themed-grid-col">
+                        <div class = "members">
+                            <div class="member-card">
+                                <img src="media/Head Programmer.png" alt="Head-Programmer Icon" style="height: 200px; width: 200px;">
+                                <h2>Marco Lee-Shi</h2>
+                                <h5>Head Programmer </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 themed-grid-col">
+                        <div class = "members">
+                            <div class="member-card">
+                                <img src="media/Head Researcher.png" alt="Head-Researcher Icon" style="height: 200px; width: 200px;">
+                                <h2>Leanna Guitterez</h2>
+                                <h5>Head Researcher </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 themed-grid-col">
+                        <div class = "members">
+                            <div class="member-card">
+                                <img src="media/designer.png" alt="UI-Designer Icon" style="height: 200px; width: 200px;">
+                                <h2>Marco Lee-Shi</h2>
+                                <h5>UI Designer </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class ="team-members">
-        <div class = "members">
-            <div class="member-card">
-                <img src="media/Head Researcher.png" alt="Head-Researcher Icon";
-                <h2>Leanna Guitterez</h2>
-                <h5>Head Researcher </h5>
+        </div>
+    
+        <div class="container" style="padding: 20px;">
+            <div class="card" style="padding: 20px; margin-bottom: 20px;">
+                <h1>CIS -286 Project</h1>
+                <p>This assessment affords you the opportunity to put into practice the concepts and technologies learned in class by tackling a "real-world" project. The task was to design and develop a web application using PHP that caters to the academic programs of SJCJC. </p>
             </div>
-        </div>
-    </div>
 
-    <div class ="team-members">
-        <div class = "members">
-            <div class="member-card">
-                <img src="media/designer.png" alt="UI-Designer Icon";
-                <h2>Marco Lee-Shi</h2>
-                <h5>UI Designer </h5>
+            <div class="row">
+                <div class="col-md-6 themed-grid-col">
+                    <div class="card" style="padding: 20px;">
+                        <h3>Individual Contribution</h3>
+                        <p >Head Programmer: Is responsible for leading and managing the team of the project. He oversaw the development process, ensure that the code is of high quality, and ensure that the project meets the necessary technical specifications.</p>
+                        <p>Head Researcher: Is responsible for overseeing the reasearch , and leading the research and development of the project. She identified and analyzed the information for this project and compiled and present her findings in an organized manner. </p>
+                        <p >UI Designer: Is responsible for designing the visual layout and interaction of the project. She creates user-centered deigns that are both visually appealing and intuitive to use.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 themed-grid-col">
+                    <div class="card" style="padding: 20px;">
+                        <h3>Group Contribution</h3>
+                        <p>The group members collaborated to validate the data displayed on the website and stored in the databases. They ensured that the data was accurate, consistent, and up-to-date. They also conducted several tests to validate the security controls and ensure that the system was robust and efficient, with high user-friendliness. The group members worked together to analyze the test results and implement necessary changes to improve the system's overall performance and usability.</p>
+                    </div>
+                </div>
             </div>
+
+                
         </div>
-    </div>
-
-        <div class="content">
-            <h1>CIS -286 Project</h1>
-            <p>This assessment affords you the opportunity to put 
-            into practice the concepts and technologies learned in class by tackling a "real-world" 
-            project. The task was to design and develop a web application using PHP that caters to
-            the academic programs of SJCJC. </p>
-            
-            <h3>Individual Contribution</h3>
-            <p >Head Programmer: Is responsible for leading and managing the team of the project. He oversaw the development process, ensure that the code is of high quality, and ensure that the project meets the necessary technical specifications.</p>
-
-            <p>Head Researcher: Is responsible for overseeing the reasearch , and leading the research and development of the project. She identified and analyzed the information for this project and compiled and present her findings in an organized manner. </p>
-
-            <p >UI Designer: Is responsible for designing the visual layout and interaction of the project. She creates user-centered deigns that are both visually appealing and intuitive to use.</p>
-
-
-
-            <h3>Group Contribution</h3>
-            <p>The group members collaborated to validate the data displayed on the website and stored in the databases. They ensured that the data was accurate, consistent, and up-to-date. They also conducted several tests to validate the security controls and ensure that the system was robust and efficient, with high user-friendliness. The group members worked together to analyze the test results and implement necessary changes to improve the system's overall performance and usability.</p>
-        </div>
-
 
     </div>
 

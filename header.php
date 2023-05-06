@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>SJC</title>
+    <link rel="icon" type="image/png" href="media/logo.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CIS-286-Project/css/bootstrap.css" />
@@ -28,7 +29,9 @@
         <div class="p-3" style="height: 40px; background-color: #200174;"></div>
 
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <img src="media/sjc-logo.png" alt="sjc logo" style="height: 50px; width: 50px; margin-left: 20px;">
+            <a>
+                <img src="media/sjc-logo.png" alt="sjc logo" style="height: 50px; width: 50px; margin-left: 20px;">
+            </a>
             <h4 style="margin-left: 15px; margin-right: 25px;">St. John's College</h4>
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="../CIS-286-Project/index.php" class="nav-link px-2 link-body-emphasis">Home</a></li>
@@ -74,4 +77,4 @@
     </div>
 </header>
 
-<main style="margin-top: 50px; margin-bottom: 100px;">
+<main style="margin-top: 100px; margin-bottom: 100px;">
