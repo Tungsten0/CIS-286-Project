@@ -38,6 +38,45 @@ if($title == null) {
 
 ?>
 
+<section class="container" style="padding: 50px">
+  <div class="row mb-3 text-center">
+    <div class="col-md-4 themed-grid-col">
+      <img src="media/laptop.png" alt="laptop" style="height: 400px; width: 250px;">
+    </div>
+
+    <div class="col-md-8 themed-grid-col">
+      <h2>Course: <span style="font-weight: 400;"> <?php echo $title; ?></span></h2>
+      <div class="card">
+        <div class="row" style="padding: 20px">
+          <div class="col-md-6 themed-grid-col text-start">
+            <h5>Course ID: <span style="font-weight: 400;"><?php echo strtoupper($id); ?></span> </h5>
+            <h5>Department: <span style="font-weight: 400;"> <?php echo $department; ?></span></h5>
+            <h5>Textbook: <?php 
+              if($txtbkid == 0) {
+                echo '<h5 style="color: red;">No textbook</h5>';
+              } else {
+                echo '<a href="textbook.php?id=' . $txtbkid . '" class="btn btn-primary ">Textbook</a>';
+              } 
+            ?></h5>
+            
+          </div>
+          <div class="col-md-6 themed-grid-col text-start">
+            <h5>Credit Hours: <span style="font-weight: 400;"> <?php echo $credits; ?></span></h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="padding: 50px">
+        <div class="row pb-3">
+          <h5>Course Description: <span style="font-weight: 400;"> <?php echo $description; ?></span></h5>
+        </div>
+      </div>
+      
+    </div>
+
+    
+  </div>
+</section>
 
     <div class="container">
         <h1>Course ID: <span style="font-weight: 400;"><?php echo strtoupper($id); ?></span> </h1>  <br>
