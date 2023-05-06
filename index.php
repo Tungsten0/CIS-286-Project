@@ -12,30 +12,33 @@
             padding: 0px;
         }
         .myimg {
-            height: 300px;
-            width: 300px;
+            height: 250px;
+            width: 250px;
             border-radius: 3px;
         }
         .mycard {
-            height: 300px;
-            width: 300px;
+            height: 250px;
+            width: 250px;
             box-shadow: 5px 5px 20px black;
             overflow: hidden;
         }
+        .title {
+            font-size: 20px;
+        }
         .intro {
-            height: 50px;
-            width: 300px;
+            height: 40px;
+            width: 250px;
             box-sizing: border-box;
             padding: 6px;
             position: absolute;
             background: rgb(27, 27, 27, .5);
             color: white;
-            bottom: -260px;
+            bottom: -210px;
             transition: .5s;
         }
         .content {
-            font-size: 15px;
-            margin: 5px;
+            font-size: 14px;
+            margin: 2px;
             visibility: hidden;
             opacity: 0;
         }
@@ -43,8 +46,7 @@
             cursor: pointer;
         }
         .mycard:hover .intro {
-            height: 200px;
-            bottom: -260px;
+            height: 175px;
             background: black;
         }
         .mycard:hover .content {
@@ -124,15 +126,15 @@
 
         
         
-        <section class="container-fluid" style="margin-top: 10px; background: witesmoke;">
+        <section class="container-fluid" style="margin-top: 10px; background: whitesmoke;">
         <div class="row mb-3 justify-content-center">
             <div class="col-2 themed-grid-col">
                 <a href="program-list.php?#CS" style="text-decoration: none;">
                     <div class="mycard">
                         <img class="myimg" src="media/index/computerscience.jpg" alt="computer science">
                         <div class="intro">
-                            <h4>Computer Science</h4>
-                            <p class="content">Computer Science Track</p>
+                            <h4 class="title">Computer Science</h4>
+                            <p class="content">Computer Science</p>
                         </div>
                     </div>
                 </a>
@@ -142,10 +144,10 @@
                     <div class="mycard">
                         <img class="myimg" src="media/index/mathscience.jpg" alt="math & science">
                         <div class="intro">
-                            <h4>Math & Science</h4>
-                            <p class="content">Math & Physics Track</p>
-                            <p class="content">Biology & Chemistry Track</p>
-                            <p class="content">Interdisciplinary Science Track</p>
+                            <h4 class="title">Math & Science</h4>
+                            <p class="content">Math & Physics</p>
+                            <p class="content">Biology & Chemistry</p>
+                            <p class="content">Interdisciplinary Science</p>
                         </div>
                     </div>
                 </a>
@@ -155,10 +157,10 @@
                     <div class="mycard">
                         <img class="myimg" src="media/index/socialscience.jpg" alt="social sciences">
                         <div class="intro">
-                            <h4>Social Sciences</h4>
-                            <p class="content">History & Economics Track</p>
-                            <p class="content">Sociology & Psychology Track</p>
-                            <p class="content">Criminal Justice & Law Track</p>
+                            <h4 class="title">Social Sciences</h4>
+                            <p class="content">History & Economics</p>
+                            <p class="content">Sociology & Psychology</p>
+                            <p class="content">Criminal Justice & Law</p>
                         </div>
                     </div>
                 </a>
@@ -168,12 +170,12 @@
                     <div class="mycard">
                         <img class="myimg" src="media/index/humanitieseducation.jpg" alt="humanities and education">
                         <div class="intro">
-                            <h4>Humanities and Education</h4>
-                            <p class="content">Education Track</p>
+                            <h4 class="title">Humanities & Education</h4>
+                            <p class="content">Education</p>
                             <p class="content">Fine Arts & Music</p>
-                            <p class="content">Liberal Arts Track</p>
-                            <p class="content">History & Literature Track</p>
-                            <p class="content">Comercial Graphic Design Track</p>
+                            <p class="content">Liberal Arts</p>
+                            <p class="content">History & Literature</p>
+                            <p class="content">Comercial Graphic Design</p>
                         </div>
                     </div>
                 </a>
@@ -183,10 +185,10 @@
                     <div class="mycard">
                         <img class="myimg" src="media/index/business.jpg" alt="business">
                         <div class="intro">
-                            <h4>Business</h4>
-                            <p class="content">Entrepreneurship Track</p>
-                            <p class="content">ourism Management Track</p>
-                            <p class="content">Business Administration Track</p>
+                            <h4 class="title">Business</h4>
+                            <p class="content">Entrepreneurship</p>
+                            <p class="content">ourism Management</p>
+                            <p class="content">Business Administration</p>
                         </div>
                     </div>
                 </a>
